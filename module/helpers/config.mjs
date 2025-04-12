@@ -1,23 +1,23 @@
-export const BOILERPLATE = {};
+export const COMING_OF_DARKNESS = {};
 
 /**
  * The set of Ability Scores used within the system.
  * @type {Object}
  */
-BOILERPLATE.abilities = {
-  str: 'BOILERPLATE.Ability.Str.long',
-  dex: 'BOILERPLATE.Ability.Dex.long',
-  con: 'BOILERPLATE.Ability.Con.long',
-  int: 'BOILERPLATE.Ability.Int.long',
-  wis: 'BOILERPLATE.Ability.Wis.long',
-  cha: 'BOILERPLATE.Ability.Cha.long',
+COMING_OF_DARKNESS.abilities = {
+  str: 'COMING_OF_DARKNESS.Ability.Str.long',
+  dex: 'COMING_OF_DARKNESS.Ability.Dex.long',
+  mas: 'COMING_OF_DARKNESS.Ability.Mas.long',
+  log: 'COMING_OF_DARKNESS.Ability.Log.long',
+  wis: 'COMING_OF_DARKNESS.Ability.Wis.long',
+  arc: 'COMING_OF_DARKNESS.Ability.Arc.long',
 };
 
-BOILERPLATE.abilityAbbreviations = {
-  str: 'BOILERPLATE.Ability.Str.abbr',
-  dex: 'BOILERPLATE.Ability.Dex.abbr',
-  con: 'BOILERPLATE.Ability.Con.abbr',
-  int: 'BOILERPLATE.Ability.Int.abbr',
-  wis: 'BOILERPLATE.Ability.Wis.abbr',
-  cha: 'BOILERPLATE.Ability.Cha.abbr',
+COMING_OF_DARKNESS.abilityAbbreviations = {
+  str: 'COMING_OF_DARKNESS.Ability.Str.abbr',
+  dex: 'COMING_OF_DARKNESS.Ability.Dex.abbr',
+  mas: 'COMING_OF_DARKNESS.Ability.Mas.abbr',
+  log: 'COMING_OF_DARKNESS.Ability.Log.abbr',
+  wis: 'COMING_OF_DARKNESS.Ability.Wis.abbr',
+  arc: 'COMING_OF_DARKNESS.Ability.Arc.abbr',
 };

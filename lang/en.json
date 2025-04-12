@@ -1,16 +1,16 @@
 {
-  "BOILERPLATE": {
+  "COMING_OF_DARKNESS": {
     "Ability": {
       "Str": { "long": "Strength", "abbr": "str" },
-      "Con": { "long": "Constitution", "abbr": "con" },
       "Dex": { "long": "Dexterity", "abbr": "dex" },
-      "Int": { "long": "Intelligence", "abbr": "int" },
+      "Mas": { "long": "Mastery", "abbr": "mas" },
+      "Log": { "long": "Logic", "abbr": "log" },
       "Wis": { "long": "Wisdom", "abbr": "wis" },
-      "Cha": { "long": "Charisma", "abbr": "cha" }
+      "Arc": { "long": "Arcane Knowledge", "abbr": "arc" }
     },
     "SheetLabels": {
-      "Actor": "Boilerplate Actor Sheet",
-      "Item": "Boilerplate Item Sheet"
+      "Actor": "Line of Fate",
+      "Item": "Item Sheet"
     },
     "Item": {
       "Spell": {

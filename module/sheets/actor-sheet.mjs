@@ -46,8 +46,8 @@ export class BoilerplateActorSheet extends ActorSheet {
     context.system = actorData.system;
     context.flags = actorData.flags;
 
-    // Adding a pointer to CONFIG.BOILERPLATE
-    context.config = CONFIG.BOILERPLATE;
+    // Adding a pointer to CONFIG.COMING_OF_DARKNESS
+    context.config = CONFIG.COMING_OF_DARKNESS;
 
     // Prepare character data and items.
     if (actorData.type == 'character') {
@@ -67,8 +67,6 @@ export class BoilerplateActorSheet extends ActorSheet {
       {
         // Whether to show secret blocks in the finished html
         secrets: this.document.isOwner,
-        // Necessary in v11, can be removed in v12
-        async: true,
         // Data to fill in for inline rolls
         rollData: this.actor.getRollData(),
         // Relative UUID resolution

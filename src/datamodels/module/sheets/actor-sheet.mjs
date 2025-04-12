@@ -46,8 +46,8 @@ export class BoilerplateActorSheet extends ActorSheet {
     context.system = actorData.system;
     context.flags = actorData.flags;
 
-    // Adding a pointer to CONFIG.BOILERPLATE
-    context.config = CONFIG.BOILERPLATE;
+    // Adding a pointer to CONFIG.COMING_OF_DARKNESS
+    context.config = CONFIG.COMING_OF_DARKNESS;
 
     // Prepare character data and items.
     if (actorData.type == 'character') {

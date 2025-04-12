@@ -65,8 +65,8 @@ export class BoilerplateItemSheet extends ItemSheet {
     context.system = itemData.system;
     context.flags = itemData.flags;
 
-    // Adding a pointer to CONFIG.BOILERPLATE
-    context.config = CONFIG.BOILERPLATE;
+    // Adding a pointer to CONFIG.COMING_OF_DARKNESS
+    context.config = CONFIG.COMING_OF_DARKNESS;
 
     // Prepare active effects for easier access
     context.effects = prepareActiveEffectCategories(this.item.effects);

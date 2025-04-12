@@ -1,0 +1,42 @@
+{
+    "COMING_OF_DARKNESS": {
+      "Ability": {
+        "Str": { "long": "Сила", "abbr": "сил" },
+        "Dex": { "long": "Ловкость", "abbr": "лов" },
+        "Mas": { "long": "Мастерство", "abbr": "мст" },
+        "Log": { "long": "Логика", "abbr": "лгк" },
+        "Wis": { "long": "Мудрость", "abbr": "мдр" },
+        "Arc": { "long": "Тайные знания", "abbr": "тзн" }
+      },
+      "SheetLabels": {
+        "Actor": "Линия судьбы",
+        "Item": "Лист предмета"
+      },
+      "Item": {
+        "Spell": {
+          "SpellLVL": "Level {level} Spells",
+          "AddLVL": "Add LVL {level}"
+        }
+      },
+      "Effect": {
+        "Source": "Source",
+        "Toggle": "Toggle Effect",
+        "Temporary": "Temporary Effects",
+        "Passive": "Passive Effects",
+        "Inactive": "Inactive Effects"
+      }
+    },
+  
+    "TYPES": {
+      "Actor": {
+        "character": "Character",
+        "npc": "NPC"
+      },
+      "Item": {
+        "item": "Item",
+        "feature": "Feature",
+        "spell": "Spell"
+      }
+    }
+  }
+  

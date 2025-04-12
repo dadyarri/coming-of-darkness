@@ -6,7 +6,7 @@ import { BoilerplateActorSheet } from './sheets/actor-sheet.mjs';
 import { BoilerplateItemSheet } from './sheets/item-sheet.mjs';
 // Import helper/utility classes and constants.
 import { preloadHandlebarsTemplates } from './helpers/templates.mjs';
-import { BOILERPLATE } from './helpers/config.mjs';
+import { COMING_OF_DARKNESS } from './helpers/config.mjs';
 
 /* -------------------------------------------- */
 /*  Init Hook                                   */
@@ -22,7 +22,7 @@ Hooks.once('init', function () {
   };
 
   // Add custom constants for configuration.
-  CONFIG.BOILERPLATE = BOILERPLATE;
+  CONFIG.COMING_OF_DARKNESS = COMING_OF_DARKNESS;
 
   /**
    * Set an initiative formula for the system
@@ -46,12 +46,12 @@ Hooks.once('init', function () {
   Actors.unregisterSheet('core', ActorSheet);
   Actors.registerSheet('boilerplate', BoilerplateActorSheet, {
     makeDefault: true,
-    label: 'BOILERPLATE.SheetLabels.Actor',
+    label: 'COMING_OF_DARKNESS.SheetLabels.Actor',
   });
   Items.unregisterSheet('core', ItemSheet);
   Items.registerSheet('boilerplate', BoilerplateItemSheet, {
     makeDefault: true,
-    label: 'BOILERPLATE.SheetLabels.Item',
+    label: 'COMING_OF_DARKNESS.SheetLabels.Item',
   });
 
   // Preload Handlebars templates.
